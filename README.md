@@ -34,10 +34,10 @@ a) Post can contain
 i) Text
 ii) Images And videos at same time or any one
 b) Public / private status of post
-c) Hashtag (bonus)
-d) Friend tag (bonus)
-e) Comment(bonus)
-i) Sub-comment (bonus)
+c) Hashtag 
+d) Friend tag 
+e) Comment
+i) Sub-comment 
 
 ##  Users can follow and unfollow other users.
 
@@ -45,7 +45,7 @@ i) Sub-comment (bonus)
 a) User can only like post one time only
 
 ##  We(user) can block any other user, means we cannot see his post/profile and he
-can’t see our post/profile (bonus)
+can’t see our post/profile 
 
 ##  Profile api
 
@@ -58,8 +58,8 @@ can’t see our post/profile (bonus)
 ## Explore APIs (hint: use aggregation)
 >. List only public post with Get latest uploaded post
 >. Add extra field in reply is the current user liked this post or not
->. Get every time random post (extra bonus)
->. Not getting blocked user post (bonus)
+>. Get every time random post 
+>. Not getting blocked user post 
 >. Pagination show 10 post per page
 >. List down the post which is liked by me (user) only
 >. My own post should not be listed in this api.
@@ -67,4 +67,4 @@ can’t see our post/profile (bonus)
 ## Edit profile
 ## Edit post
 ##  Delete post (soft delete)
-## Unblock user (bonus)
+## Unblock user 
