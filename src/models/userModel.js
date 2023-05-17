@@ -29,7 +29,7 @@ const userSchema=new mongoose.Schema({
     mobile: { 
         type: String, 
         required: true, 
-        match: /^\+[1-9]\d{1,14}$/ 
+        
     },
     followers:{
         type:Number,
@@ -42,6 +42,10 @@ const userSchema=new mongoose.Schema({
     isPrivate: { 
         type: Boolean, 
         default: false 
+    },
+    isBlock:{
+     type:Boolean,
+     default:false
     },
     isDeleted:{
         type:Boolean,

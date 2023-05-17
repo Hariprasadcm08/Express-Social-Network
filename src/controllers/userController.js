@@ -90,11 +90,29 @@ const login=async function(req,res){
            let obj= {userId:findUser["_id"],token}
         
             return res.status(200).send({status:true,message:"User login successfull",data:obj})
-}catch(error){
+     }
+     catch(error){
             return res.status(500).send({status:false,message:error.message})
         }
     }
 
+const blockUser=async function(req,res){
+    try{
+
+    }
+    catch(error){
+        return res.status(200).send({status:false,message:error.message})
+    }
+}
+
+const unBlockUser=async function(req,res){
+    try{
+
+    }
+    catch(error){
+        return res.status(200).send({status:false,message:error.message})
+    }
+}
 
 
-    module.exports={createUser,getData,updateUser,login}
+    module.exports={createUser,getData,updateUser,login,blockUser,unBlockUser}
